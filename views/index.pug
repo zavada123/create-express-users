@@ -1,0 +1,11 @@
+html    
+    head
+        link(rel='stylesheet' href='/stylesheets/styles.css')
+    body
+      //- h1= title
+      //- p Welcome to #{title}
+      form(action="/api", method="post")
+        input(type="text", name="name")
+        input(type="number", name="age")
+        button(type="submit") отправить
+      script(src="/javascript/index.js")
